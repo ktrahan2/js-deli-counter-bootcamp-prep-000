@@ -20,7 +20,6 @@ function currentLine(array) {
       newarray = newarray + (i + 1) + `. ${array[i]}, `
     }
       //could also use if and else statement in for loop instead of slice
-  }
   if (array.length === 0) {
     return "The line is currently empty."
   }
