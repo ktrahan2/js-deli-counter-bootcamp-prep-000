@@ -1,6 +1,6 @@
-function takeANumber(numpeople, name) {
-  numpeople.push(name)
-  return `Welcome, ${name}. You are number ${numpeople.length} in line.`
+function takeANumber(katzDeliLine) {
+  var ticketnumber = katzDeliLine.length
+  return `Welcome, you are number ${ticketnumber} in line.`  
 }
 
 function nowServing(katzDeliLine) {
