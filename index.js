@@ -18,7 +18,7 @@ function currentLine(array) {
   var newarray = ""
   for (let i = 0; i < array.length; i++) {
       newarray = newarray + (i + 1) + `. ${array[i]}, `
-      //could also use if and else statement to determine i + 1 === array.length, or everything else
+      //could also use if and else statement inside of for loop instead of slice
   }
   if (array.length === 0) {
     return "The line is currently empty."
