@@ -17,7 +17,8 @@ function nowServing(katzDeliLine) {
 function currentLine(array) {
   var newarray = ""
   for (let i = 0; i < array.length; i++) {
-      newarray = newarray + (i + 1) + `. ${array[i]}, `
+      newarray = newarray + (i + 1) + `. ${array[i]}, ` 
+      }
       //could also use if and else statement in for loop instead of slice
   }
   if (array.length === 0) {
