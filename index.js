@@ -29,6 +29,6 @@ function currentLine(array) {
     return "The line is currently empty."
   }
   else if (array.length > 0) {
-    return `The line is currently: ${newarray.slice}`
+    return `The line is currently: ${newarray}`
   }
 }
